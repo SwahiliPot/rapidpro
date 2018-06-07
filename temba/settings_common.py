@@ -37,9 +37,9 @@ POSTGIS_VERSION = (2, 1)
 # if your site was at http://temba.io, it might look like this:
 # -----------------------------------------------------------------------------------
 EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_HOST_USER = 'server@temba.io'
+EMAIL_HOST_USER = 'issaziri@gmail.com'
 DEFAULT_FROM_EMAIL = 'server@temba.io'
-EMAIL_HOST_PASSWORD = 'mypassword'
+EMAIL_HOST_PASSWORD = 'i521993z'
 EMAIL_USE_TLS = True
 
 # Used when sending email from within a flow and the user hasn't configured
@@ -62,7 +62,7 @@ STORAGE_ROOT_DIR = 'test_orgs' if TESTING else 'orgs'
 # -----------------------------------------------------------------------------------
 USE_TZ = True
 TIME_ZONE = 'GMT'
-USER_TIME_ZONE = 'Africa/Kigali'
+USER_TIME_ZONE = 'Africa/Nairobi'
 
 MODELTRANSLATION_TRANSLATION_REGISTRY = "translation"
 
@@ -291,30 +291,30 @@ LOGGING = {
 # -----------------------------------------------------------------------------------
 BRANDING = {
     'rapidpro.io': {
-        'slug': 'rapidpro',
-        'name': 'RapidPro',
+        'slug': 'ymca',
+        'name': 'YMCA',
         'org': 'UNICEF',
         'colors': dict(primary='#0c6596'),
         'styles': ['brands/rapidpro/font/style.css'],
         'welcome_topup': 1000,
-        'email': 'join@rapidpro.io',
-        'support_email': 'support@rapidpro.io',
-        'link': 'https://app.rapidpro.io',
-        'api_link': 'https://api.rapidpro.io',
+        'email': 'join@ymca.io',
+        'support_email': 'support@ymca.io',
+        'link': 'https://app.ymca.io',
+        'api_link': 'https://api.ymca.io',
         'docs_link': 'http://docs.rapidpro.io',
-        'domain': 'app.rapidpro.io',
+        'domain': 'app.ymca.io',
         'favico': 'brands/rapidpro/rapidpro.ico',
         'splash': '/brands/rapidpro/splash.jpg',
-        'logo': '/brands/rapidpro/logo.png',
+        'logo': '/brands/rapidpro/ymca.jpg',
         'allow_signups': True,
         'tiers': dict(import_flows=0, multi_user=0, multi_org=0),
         'bundles': [],
         'welcome_packs': [dict(size=5000, name="Demo Account"), dict(size=100000, name="UNICEF Account")],
         'description': _("Visually build nationally scalable mobile applications from anywhere in the world."),
-        'credits': _("Copyright &copy; 2012-2017 UNICEF, Nyaruka. All Rights Reserved.")
+        'credits': _("Copyright &copy; 2018 YMCA. All Rights Reserved.")
     }
 }
-DEFAULT_BRAND = 'rapidpro.io'
+DEFAULT_BRAND = 'ymca.io'
 
 # -----------------------------------------------------------------------------------
 # Permission Management
